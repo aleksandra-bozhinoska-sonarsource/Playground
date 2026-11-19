@@ -1,4 +1,3 @@
-#if NET11_0_OR_GREATER
 namespace CSharp15
 {
     // Collection expression arguments
@@ -238,4 +237,3 @@ namespace CSharp15
         }
     }
 }
-#endif
