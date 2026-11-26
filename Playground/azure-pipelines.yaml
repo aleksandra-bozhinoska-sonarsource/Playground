@@ -74,6 +74,7 @@ steps:
 #  workingDirectory: '$(Build.SourcesDirectory)'
 #  displayName: 'run scanner endstep'
 
+
 - task: SonarCloudAnalyze@3
   inputs:
     jdkversion: 'JAVA_HOME_17_X64'
